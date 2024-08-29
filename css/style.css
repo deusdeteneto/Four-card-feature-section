@@ -30,6 +30,7 @@ main {
   color: var(--color-very-dark-blue);
 }
 
+
 .text-title,
 .text-subtitle {
   font-size: 2.2rem;
@@ -51,7 +52,6 @@ main {
 
 .card {
   margin: 1.5rem 0;
-  width: 21rem;
   border: none;
   box-shadow: 2px 6px 15px hsla(234, 30%, 40%, 0.281);
   transition: transform 0.4s ease-in-out;
@@ -62,8 +62,14 @@ main {
   animation-delay: 0.3s;
 }
 
+.card-title {
+  font-size: 1.2rem;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-very-dark-blue);
+}
+
 .card-text {
-  max-width: 18rem;
+  max-width: 18em;
   font-size: var(--font-body-size);
   color: var(--color-grayish-blue);
   font-size: 0.8rem;
