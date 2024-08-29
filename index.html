@@ -26,56 +26,80 @@
 
     <title>Frontend Mentor | Four card feature section</title>
   </head>
-  <body>
-    <h1>Reliable, efficient delivery</h1>
-    <h1>Powered by Technology</h1>
-
-    <p>
-      Our Artificial Intelligence powered tools use millions of project data
-      points to ensure that your project is successful
-    </p>
-
-    <div class="card" style="width: 18rem">
-      <div class="card-body">
-        <h5 class="card-title">Supervisor</h5>
-        <p class="card-text">
-          Monitors activity to identify project roadblocks
+  <body class="d-flex flex-column">
+    <main
+      class="d-flex flex-column align-items-center justify-content-center flex-grow-1">
+      <header class="container text-center">
+        <h1 class="text-title py-1">Reliable, efficient delivery</h1>
+        <h1 class="text-subtitle py-1">Powered by Technology</h1>
+        <p class="text-description mx-auto my-4">
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
         </p>
-        <img src="images/icon-supervisor.svg" alt="" />
-      </div>
-    </div>
+      </header>
+      <!-- Cards -->
+      <section class="d-flex align-items-center justify-content-center">
+        <div class="container">
+          <div class="card supervisor-card p-3">
+            <div class="card-body">
+              <h5 class="card-title mb-3">Supervisor</h5>
+              <p class="card-text mb-5">
+                Monitors activity to identify project roadblocks
+              </p>
+              <img
+                
+                class="float-end"
+                src="images/icon-supervisor.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="card teamBuilder-card">
+            <div class="card-body my-2">
+              <h5 class="card-title">Team Builder</h5>
+              <p class="card-text my-3">
+                Scans our talent network to create the optimal team for your
+                project
+              </p>
+              <img
+                class="p-3 float-end"
+                src="images/icon-team-builder.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="card karma-card">
+            <div class="card-body my-2">
+              <h5 class="card-title">Karma</h5>
+              <p class="card-text my-3">
+                Regularly evaluates our talent to ensure quality
+              </p>
+              <img class="p-3 float-end" src="images/icon-karma.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="card calculator-card">
+            <div class="card-body my-2">
+              <h5 class="card-title">Calculator</h5>
+              <p class="card-text my-3">
+                Uses data from past projects to provide better delivery
+                estimates
+              </p>
+              <img
+                class="p-3 float-end"
+                src="images/icon-calculator.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-    <div class="card" style="width: 18rem">
-      <div class="card-body">
-        <h5 class="card-title">Team Builder</h5>
-        <p class="card-text">
-          Scans our talent network to create the optimal team for your project
-        </p>
-        <img src="images/icon-team-builder.svg" alt="" />
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem">
-      <div class="card-body">
-        <h5 class="card-title">Karma</h5>
-        <p class="card-text">
-          Regularly evaluates our talent to ensure quality
-        </p>
-        <img src="images/icon-karma.svg" alt="" />
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem">
-      <div class="card-body">
-        <h5 class="card-title">Calculator</h5>
-        <p class="card-text">
-          Uses data from past projects to provide better delivery estimates
-        </p>
-        <img src="images/icon-calculator.svg" alt="" />
-      </div>
-    </div>
-
-    <footer>
+    <footer class="d-flex align-items-end justify-content-center">
       <p class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
