@@ -26,8 +26,8 @@ Sinta-se à vontade para visitar meu perfil no Frontend Mentor - [@deusdeteneto]
 ### Links
 
 <!-- TODO COLOCAR OS LINKS ABAIXO -->
-- URL da Solução: [Adicionar URL da solução aqui](https://www.frontendmentor.io/solutions/four-card-feature-section) <!-- Substitua pela URL do seu repositório ou site -->
-- URL do Site: [Adicionar URL do site aqui](https://four-card-feature-section.vercel.app/) <!-- Substitua pela URL do site ao vivo -->
+- URL da Solução: [Adicionar URL da solução aqui](https://www.frontendmentor.io/solutions/four-card-feature-section-Qaw_IwRrRu) 
+- URL do Site: [Adicionar URL do site aqui](https://feature-section-eight.vercel.app/) 
 
 ## Meu processo
 
