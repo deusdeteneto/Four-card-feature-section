@@ -96,10 +96,11 @@ main {
 .attribution {
   font-size: 0.7rem;
   text-align: center;
+  color: var(--color-very-dark-blue);
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--color-red);
 }
 
 @media (max-width: 576px) {
