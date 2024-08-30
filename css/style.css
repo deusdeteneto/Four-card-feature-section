@@ -30,6 +30,9 @@ main {
   color: var(--color-very-dark-blue);
 }
 
+.card-space {
+  max-width: 95%;
+}
 
 .text-title,
 .text-subtitle {
@@ -97,4 +100,11 @@ main {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 576px) {
+  .text-title,
+  .text-subtitle {
+    font-size: 1.5rem;
+  }
 }
