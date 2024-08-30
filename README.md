@@ -21,7 +21,7 @@ Sinta-se à vontade para visitar meu perfil no Frontend Mentor - [@deusdeteneto]
 
 ### Imagem
 
-![Imagem do Projeto]([https://raw.githubusercontent.com/deusdeteneto/Seu-Repositorio/main/design/desktop-design.jpg](https://raw.githubusercontent.com/deusdeteneto/Four-card-feature-section/main/design/image-desktop.jpeg))
+![Imagem do Projeto](https://raw.githubusercontent.com/deusdeteneto/Four-card-feature-section/main/design/image-desktop.jpeg)
 
 ### Links
 
